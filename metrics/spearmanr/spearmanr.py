@@ -42,7 +42,7 @@ Args:
     references: Ground truth labels.
 Returns:
     spearmanr: Spearman correlation coefficient.
-Examples:
+Example::
 
     >>> spearmanr_metric = datasets.load_metric("spearmanr")
     >>> results = spearmanr_metric.compute(references=[0, 1, 1], predictions=[0, 1, 1])

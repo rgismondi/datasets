@@ -83,7 +83,7 @@ Returns:
             'precision': precision,
             'recall': recall,
             'f1': F1 score, also known as balanced F-score or F-measure
-Examples:
+Example::
 
     >>> predictions = [['O', 'O', 'B-MISC', 'I-MISC', 'I-MISC', 'I-MISC', 'O'], ['B-PER', 'I-PER', 'O']]
     >>> references = [['O', 'O', 'O', 'B-MISC', 'I-MISC', 'I-MISC', 'O'], ['B-PER', 'I-PER', 'O']]

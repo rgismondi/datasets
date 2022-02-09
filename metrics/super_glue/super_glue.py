@@ -66,7 +66,7 @@ Returns: depending on the SuperGLUE subset:
         - 'f1': F1 score
     - for all others:
         - 'accuracy': Accuracy
-Examples:
+Example::
 
     >>> super_glue_metric = datasets.load_metric('super_glue', 'copa')  # any of ["copa", "rte", "wic", "wsc", "wsc.fixed", "boolq", "axg"]
     >>> predictions = [0, 1]

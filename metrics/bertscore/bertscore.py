@@ -85,7 +85,7 @@ Returns:
     f1: F1 score.
     hashcode: Hashcode of the library.
 
-Examples:
+Example::
 
     >>> predictions = ["hello there", "general kenobi"]
     >>> references = ["hello there", "general kenobi"]

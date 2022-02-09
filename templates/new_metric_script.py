@@ -42,7 +42,7 @@ Args:
 Returns:
     accuracy: description of the first score,
     another_score: description of the second score,
-Examples:
+Example::
     Examples should be written in doctest format, and should illustrate how
     to use the function.
 

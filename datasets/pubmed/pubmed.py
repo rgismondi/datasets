@@ -52,7 +52,7 @@ def deepupdate(target, src):
     src[k]. If v is a set, target[k] is updated with v, If v is a dict,
     recursively deep-update it.
 
-    Examples:
+    Example::
     >>> t = {'name': 'Ferry', 'hobbies': ['programming', 'sci-fi']}
     >>> deepupdate(t, {'hobbies': ['gaming']})
     >>> print(t)

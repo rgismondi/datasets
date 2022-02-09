@@ -71,7 +71,7 @@ Args:
 Returns:
     'google_bleu': bleu score
 
-Examples:
+Example::
     >>> hyp1 = ['It', 'is', 'a', 'guide', 'to', 'action', 'which',
     ...         'ensures', 'that', 'the', 'military', 'always',
     ...         'obeys', 'the', 'commands', 'of', 'the', 'party']

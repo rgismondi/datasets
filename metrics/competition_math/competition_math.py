@@ -54,7 +54,7 @@ Returns:
     accuracy: accuracy after canonicalizing inputs
         (e.g., converting "1/2" to "\\frac{1}{2}")
 
-Examples:
+Example::
     >>> metric = datasets.load_metric("competition_math")
     >>> results = metric.compute(references=["\\frac{1}{2}"], predictions=["1/2"])
     >>> print(results)

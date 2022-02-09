@@ -77,7 +77,7 @@ Returns:
     'num_edits': The cumulative number of edits,
     'ref_length': The cumulative average reference length.
 
-Examples:
+Example::
 
     >>> predictions = ["hello there general kenobi", "foo bar foobar"]
     >>> references = [["hello there general kenobi", "hello there !"], ["foo bar foobar", "foo bar foobar"]]

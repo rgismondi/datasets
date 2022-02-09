@@ -47,7 +47,7 @@ MasakhaNER is the first large publicly available high-quality dataset for named 
 
 Named entities are phrases that contain the names of persons, organizations, locations, times and quantities.
 
-Example:
+Example::
 [PER Wolff] , currently a journalist in [LOC Argentina] , played with [PER Del Bosque] in the final years of the seventies in [ORG Real Madrid] .
 MasakhaNER is a named entity dataset consisting of PER, ORG, LOC, and DATE entities annotated by Masakhane for ten African languages:
 - Amharic

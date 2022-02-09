@@ -40,7 +40,7 @@ compositional learning and zero-shot generalization.
 
 See https://github.com/brendenlake/SCAN for a description of the splits.
 
-Example usage:
+Example::
 data = datasets.load_dataset('scan/length')
 """
 

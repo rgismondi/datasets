@@ -72,7 +72,7 @@ Returns:
     'length_ratio': ratio of lengths,
     'translation_length': translation_length,
     'reference_length': reference_length
-Examples:
+Example::
 
     >>> predictions = [
     ...     ["hello", "there", "general", "kenobi"],                             # tokenized prediction of the first sample

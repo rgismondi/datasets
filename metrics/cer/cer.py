@@ -103,7 +103,7 @@ Args:
 Returns:
     (float): the character error rate
 
-Examples:
+Example::
 
     >>> predictions = ["this is the prediction", "there is an other sample"]
     >>> references = ["this is the reference", "there is another one"]

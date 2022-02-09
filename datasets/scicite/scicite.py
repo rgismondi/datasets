@@ -34,7 +34,7 @@ _CITATION = """
 _DESCRIPTION = """
 This is a dataset for classifying citation intents in academic papers.
 The main citation intent label for each Json object is specified with the label
-key while the citation context is specified in with a context key. Example:
+key while the citation context is specified in with a context key. Example::
 {
  'string': 'In chacma baboons, male-infant relationships can be linked to both
     formation of friendships and paternity success [30,31].'

@@ -70,7 +70,7 @@ Args:
     gamma: Relative weight assigned to fragmentation penalty. default: 0.5
 Returns:
     'meteor': meteor score.
-Examples:
+Example::
 
     >>> meteor = datasets.load_metric('meteor')
     >>> predictions = ["It is a guide to action which ensures that the military always obeys the commands of the party"]

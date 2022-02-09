@@ -38,7 +38,7 @@ Args:
     sample_weight: Sample weights.
 Returns:
     matthews_correlation: Matthews correlation.
-Examples:
+Example::
 
     >>> matthews_metric = datasets.load_metric("matthews_correlation")
     >>> results = matthews_metric.compute(references=[0, 1], predictions=[0, 1])

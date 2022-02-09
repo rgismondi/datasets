@@ -65,7 +65,7 @@ Returns:
     sacrebleu: sacrebleu score
     exact: exact score
 
-Examples:
+Example::
     >>> sources=["About 95 species are currently accepted ."]
     >>> predictions=["About 95 you now get in ."]
     >>> references=[["About 95 species are currently known ."]]

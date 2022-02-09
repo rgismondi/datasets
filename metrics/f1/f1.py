@@ -52,7 +52,7 @@ Args:
     sample_weight: Sample weights.
 Returns:
     f1: F1 score.
-Examples:
+Example::
 
     >>> f1_metric = datasets.load_metric("f1")
     >>> results = f1_metric.compute(predictions=[0, 1], references=[0, 1])

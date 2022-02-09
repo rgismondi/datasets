@@ -236,7 +236,7 @@ class DummyDataCommand(BaseDatasetsCLICommand):
             "--match_text_files",
             type=str,
             default=None,
-            help="Optional, a comma separated list of file patterns that looks for line-by-line text files other than *.txt or *.csv. Example: --match_text_files *.label",
+            help="Optional, a comma separated list of file patterns that looks for line-by-line text files other than *.txt or *.csv. Example:: --match_text_files *.label",
         )
         test_parser.add_argument(
             "--keep_uncompressed",

@@ -90,7 +90,7 @@ Returns:
     'word_order': The word n-gram order. If equals to 2, the metric is referred to as chrF++,
     'beta': Determine the importance of recall w.r.t precision
 
-Examples:
+Example::
 
     >>> prediction = ["The relationship between Obama and Netanyahu is not exactly friendly."]
     >>> reference = [["The ties between Obama and Netanyahu are not particularly friendly."]]

@@ -67,7 +67,7 @@ Args:
     references: list of lists of reference sentences where each sentence should be a string.
 Returns:
     sari: sari score
-Examples:
+Example::
     >>> sources=["About 95 species are currently accepted ."]
     >>> predictions=["About 95 you now get in ."]
     >>> references=[["About 95 species are currently known .","About 95 species are now accepted .","95 species are now accepted ."]]

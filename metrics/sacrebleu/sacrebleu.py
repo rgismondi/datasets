@@ -64,7 +64,7 @@ Returns:
     'sys_len': predictions length,
     'ref_len': reference length,
 
-Examples:
+Example::
 
     >>> predictions = ["hello there general kenobi", "foo bar foobar"]
     >>> references = [["hello there general kenobi", "hello there !"], ["foo bar foobar", "foo bar foobar"]]

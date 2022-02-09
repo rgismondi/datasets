@@ -36,7 +36,7 @@ Args:
     sample_weight: Sample weights.
 Returns:
     accuracy: Accuracy score.
-Examples:
+Example::
 
     >>> accuracy_metric = datasets.load_metric("accuracy")
     >>> results = accuracy_metric.compute(references=[0, 1], predictions=[0, 1])

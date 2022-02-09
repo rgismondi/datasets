@@ -35,7 +35,7 @@ _CITATION = """\
 _DESCRIPTION = """\
 Named entities are phrases that contain the names of persons, organizations, locations, times and quantities.
 
-Example:
+Example::
 [PER Wolff] , currently a journalist in [LOC Argentina] , played with [PER Del Bosque] in the final years of the seventies in [ORG Real Madrid] .
 
 The shared task of CoNLL-2002 concerns language-independent named entity recognition.

@@ -74,7 +74,7 @@ Returns:
     'best_exact_thresh': No-answer probability threshold associated to the best exact match
     'best_f1': Best F1 (with varying threshold)
     'best_f1_thresh': No-answer probability threshold associated to the best F1
-Examples:
+Example::
 
     >>> predictions = [{'prediction_text': '1976', 'id': '56e10a3be3433e1400422b22', 'no_answer_probability': 0.}]
     >>> references = [{'answers': {'answer_start': [97], 'text': ['1976']}, 'id': '56e10a3be3433e1400422b22'}]

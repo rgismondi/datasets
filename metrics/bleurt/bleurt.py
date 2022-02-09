@@ -51,7 +51,7 @@ Args:
 
 Returns:
     'scores': List of scores.
-Examples:
+Example::
 
     >>> predictions = ["hello there", "general kenobi"]
     >>> references = ["hello there", "general kenobi"]

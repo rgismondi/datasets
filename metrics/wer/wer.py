@@ -62,7 +62,7 @@ Args:
 Returns:
     (float): the word error rate
 
-Examples:
+Example::
 
     >>> predictions = ["this is the prediction", "there is an other sample"]
     >>> references = ["this is the reference", "there is another one"]

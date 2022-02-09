@@ -147,7 +147,7 @@ Returns:
     'lea': LEA [Moosavi and Strube, 2016]
     'conll_score': averaged CoNLL score (the average of the F1 values of MUC, B-cubed and CEAFe)
 
-Examples:
+Example::
 
     >>> coval = datasets.load_metric('coval')
     >>> words = ['bc/cctv/00/cctv_0005   0   0       Thank   VBP  (TOP(S(VP*    thank  01   1    Xu_li  *           (V*)        *       -',

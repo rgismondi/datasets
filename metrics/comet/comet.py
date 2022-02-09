@@ -91,7 +91,7 @@ Returns:
     `samples`: List of dictionaries with `src`, `mt`, `ref` and `score`.
     `scores`: List of scores.
 
-Examples:
+Example::
 
     >>> comet_metric = datasets.load_metric('comet') # doctest:+ELLIPSIS
     [...]Download succeeded. Loading model[...]

@@ -42,7 +42,7 @@ reasoning skills of learning models.
 Original paper: Analysing Mathematical Reasoning Abilities of Neural Models
 (Saxton, Grefenstette, Hill, Kohli).
 
-Example usage:
+Example::
 train_examples, val_examples = datasets.load_dataset(
     'math_dataset/arithmetic__mul',
     split=['train', 'test'],

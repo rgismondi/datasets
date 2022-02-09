@@ -35,7 +35,7 @@ class DropDateObject:
     Custom parser for date answers in DROP.
     A date answer is a dict <date> with at least one of day|month|year.
 
-    Example: date == {
+    Example:: date == {
         'day': '9',
         'month': 'March',
         'year': '2021'
@@ -44,7 +44,7 @@ class DropDateObject:
     This dict is parsed and flattend to '{day} {month} {year}', not including
     blank values.
 
-    Example: str(DropDateObject(date)) == '9 March 2021'
+    Example:: str(DropDateObject(date)) == '9 March 2021'
     """
 
     def __init__(self, dict_date):

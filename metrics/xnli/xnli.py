@@ -49,7 +49,7 @@ Args:
     references: Ground truth labels.
 Returns:
     'accuracy': accuracy
-Examples:
+Example::
 
     >>> predictions = [0, 1]
     >>> references = [0, 1]

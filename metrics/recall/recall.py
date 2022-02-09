@@ -54,7 +54,7 @@ Args:
     sample_weight: Sample weights.
 Returns:
     recall: Recall score.
-Examples:
+Example::
 
     >>> recall_metric = datasets.load_metric("recall")
     >>> results = recall_metric.compute(references=[0, 1], predictions=[0, 1])

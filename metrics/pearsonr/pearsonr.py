@@ -40,7 +40,7 @@ Args:
     references: Ground truth labels.
 Returns:
     pearsonr: Pearson correlation coefficient.
-Examples:
+Example::
 
     >>> pearsonr_metric = datasets.load_metric("pearsonr")
     >>> results = pearsonr_metric.compute(references=[0, 1], predictions=[0, 1])

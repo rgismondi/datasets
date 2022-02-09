@@ -71,7 +71,7 @@ Returns:
     divergence_curve: a numpy.ndarray of shape (m, 2); plot it with matplotlib to view the divergence curve,
     p_hist: a discrete distribution, which is a quantized version of the text distribution p_text,
     q_hist: same as above, but with q_text.
-Examples:
+Example::
 
     >>> # faiss segfaults in doctest for some reason, so the .compute call is not tested with doctest
     >>> import datasets
